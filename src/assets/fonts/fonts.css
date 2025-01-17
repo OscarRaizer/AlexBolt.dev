@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'TradaSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./TradaSans-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'TradaSans-Medium';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(./TradaSans-Medium.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'TradaSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./TradaSans-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'TradaSans-DemiBold';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(./TradaSans-DemiBold.woff2) format('woff2');
+}
