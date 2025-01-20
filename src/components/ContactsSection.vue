@@ -13,7 +13,7 @@ const contacts = store.contacts
         v-for="contact in contacts"
         :key="contact.name"
         class="font-medium text-2xl leading-6 hover:bg-[#060218] hover:text-[#d6d5dd]"
-        href="contact.link"
+        :href="contact.link"
         >{{ contact.name }}</a
       >
     </div>
