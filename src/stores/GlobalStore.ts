@@ -1,8 +1,10 @@
 import { defineStore } from 'pinia'
+import { ref } from 'vue'
 
-export const useGlobalStore = defineStore('counter', () => {
+export const useGlobalStore = defineStore('global', () => {
   const skills = [
     'TypeScript',
+    'JavaScript',
     'VUE',
     'React',
     'Django',
@@ -13,15 +15,48 @@ export const useGlobalStore = defineStore('counter', () => {
     'Git',
     'Github',
     'Gitlab',
+    'CI/CD',
+    'NLP',
+    'WXT',
+    'Linux',
   ]
 
   const projects = [
-    { name: 'Texty', role: 'Founder' },
-    { name: 'mplays.ru', role: 'Frontend Developer' },
-    { name: 'Lead Frontend', role: 'Frontend Developer' },
-    { name: 'Divly Frontend', role: 'Frontend Developer' },
-    { name: 'uKitTechnical', role: 'Tech Support Specialist' },
-    { name: 'Ligaa agency', role: 'Frontend Developer' },
+    {
+      name: 'Texty',
+      role: 'Founder',
+      skills: ['TypeScript', 'VUE', 'WXT', 'NLP', 'HTML', 'CSS', 'Git', 'Github'],
+    },
+    {
+      name: 'Mplays',
+      link: 'https://mplays.ru',
+      role: 'Frontend Developer',
+      skills: [
+        'React',
+        'VUE',
+        'CSS',
+        'Tailwind',
+        'HTML',
+        'TypeScript',
+        'Gitlab',
+        'Git',
+        'CSS',
+        'Django',
+        'Figma',
+        'CI/CD',
+      ],
+    },
+    {
+      name: 'Divly',
+      role: 'Frontend Developer',
+      skills: ['VUE', 'JavaScript', 'HTML', 'CSS', 'Figma'],
+    },
+    { name: 'uKit', role: 'Tech Support Specialist', skills: ['Git', 'HTML', 'CSS', 'JavaScript'] },
+    {
+      name: 'Ligaa Agency',
+      role: 'Frontend Developer',
+      skills: ['Figma', 'Git', 'Github', 'CSS', 'JavaScript', 'HTML'],
+    },
   ]
 
   const contacts = [
@@ -31,5 +66,25 @@ export const useGlobalStore = defineStore('counter', () => {
     { name: 'github.com/OscarRaizer', link: 'https://github.com/OscarRaizer' },
   ]
 
-  return { skills, projects, contacts }
+  // Хранение выделенных скиллов
+  const highlightedSkills = ref<string[]>([])
+
+  // Установить выделенные скиллы при наведении на проект
+  const setHighlightedSkills = (skills: string[]) => {
+    highlightedSkills.value = skills
+  }
+
+  // Сбросить выделенные скиллы при уходе с проекта
+  const resetHighlightedSkills = () => {
+    highlightedSkills.value = []
+  }
+
+  return {
+    skills,
+    projects,
+    contacts,
+    highlightedSkills,
+    setHighlightedSkills,
+    resetHighlightedSkills,
+  }
 })
