@@ -24,9 +24,9 @@ const resetHighlightedSkills = () => {
         @mouseenter="setHighlightedSkills(project.skills)"
         @mouseleave="resetHighlightedSkills"
       >
-        <a class="flex justify-between" target="_blank" :href="project.link"
+        <a class="flex justify-between items-center gap-3" target="_blank" :href="project.link"
           ><span class="text-[#060218] group-hover:text-[#e4e3e8]">{{ project.name }}</span
-          ><span class="text-[#adabba] text-xl">{{ project.role }}</span></a
+          ><span class="text-[#adabba] text-xl text-end">{{ project.role }}</span></a
         >
       </li>
     </ul>
