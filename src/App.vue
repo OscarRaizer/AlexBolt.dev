@@ -11,7 +11,7 @@ import ContactsSection from '@/components/ContactsSection.vue'
     class="bg-[#d6d5dd] md:h-screen p-3 font-demibold leading-none text-[#060218] md:overflow-hidden"
   >
     <div class="min-h-screen flex md:flex-col h-full gap-5 sm: flex-col-reverse">
-      <section class="flex-grow h-full">
+      <section class="grow h-full">
         <div class="grid md:grid-cols-4 h-full gap-3 sm:grid-cols-1">
           <TheDescription />
           <SkillsSection />
@@ -24,8 +24,4 @@ import ContactsSection from '@/components/ContactsSection.vue'
   </div>
 </template>
 
-<style scoped>
-* {
-  outline: 1px solid red;
-}
-</style>
+<style scoped></style>

@@ -1,8 +1,24 @@
-@import '@/assets/fonts/fonts.css';
+@import '@/assets/fonts/fonts.css' layer(base);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --font-*: initial;
+  --font-bold: TradaSans-Bold, Times New Roman, Times, serif;
+  --font-demibold: TradaSans-DemiBold, Times New Roman, Times, serif;
+  --font-regular: TradaSans-Regular, Times New Roman, Times, serif;
+  --font-medium: TradaSans-Medium, Times New Roman, Times, serif;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: currentColor;
+  }
+}
 
 @layer base {
 }
