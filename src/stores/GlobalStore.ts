@@ -21,7 +21,7 @@ export const useGlobalStore = defineStore('global', () => {
 
   const projects = [
     {
-      name: 'Mplays',
+      name: 'MPlays',
       link: 'https://mplays.ru',
       role: 'Frontend Developer',
       skills: [
@@ -41,10 +41,16 @@ export const useGlobalStore = defineStore('global', () => {
     },
     {
       name: 'Divly',
+      link: 'https://divly.net/',
       role: 'Frontend Developer',
       skills: ['VUE', 'JavaScript', 'HTML', 'CSS', 'Figma'],
     },
-    { name: 'uKit', role: 'Tech Support Specialist', skills: ['Git', 'HTML', 'CSS', 'JavaScript'] },
+    {
+      name: 'uKit',
+      link: 'https://ukit.com',
+      role: 'Tech Support Specialist',
+      skills: ['Git', 'HTML', 'CSS', 'JavaScript'],
+    },
     {
       name: 'Ligaa Agency',
       role: 'Frontend Developer',
