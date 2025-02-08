@@ -15,7 +15,7 @@ const resetHighlightedSkills = () => {
 
 <template>
   <div>
-    <h2 class="text-4xl tracking-tighter mb-10">Projects</h2>
+    <h2 class="tracking-tighter mb-10 text-projects">Projects</h2>
     <ul class="flex flex-col font-medium text-2xl leading-none">
       <li
         v-for="project in projects"
@@ -35,8 +35,4 @@ const resetHighlightedSkills = () => {
     </ul>
   </div>
 </template>
-<style>
-/* * {
-  outline: 1px solid;
-} */
-</style>
+<style></style>

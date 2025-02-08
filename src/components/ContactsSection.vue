@@ -7,7 +7,7 @@ const contacts = store.contacts
 </script>
 <template>
   <div class="flex flex-col justify-between gap-10 h-full">
-    <h2 class="text-3xl tracking-tighter mb-10">Contacts</h2>
+    <h2 class="text-3xl tracking-tighter mb-10 text-contacts">Contacts</h2>
     <div class="flex flex-col gap-2">
       <a
         v-for="contact in contacts"

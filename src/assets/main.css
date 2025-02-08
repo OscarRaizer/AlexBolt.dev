@@ -8,6 +8,13 @@
   --font-demibold: TradaSans-DemiBold, Times New Roman, Times, serif;
   --font-regular: TradaSans-Regular, Times New Roman, Times, serif;
   --font-medium: TradaSans-Medium, Times New Roman, Times, serif;
+
+  --text-name: clamp(1.875rem, -0.2019rem + 10.3846vw, 12rem); /* 30px - 192px  320-1880 */
+  --text-projects: clamp(2rem, 1.9286rem + 0.3571vw, 2.25rem); /* 32px - 36px 320-1440*/
+  --text-skills: clamp(2.1875rem, 1.9554rem + 1.1607vw, 3rem);
+  --text-contacts: clamp(1.6875rem, 1.6339rem + 0.2679vw, 1.875rem);
+  --text-title: clamp(1.25rem, 0.5357rem + 3.5714vw, 3.75rem); /* 20px - 60px 320-1440 */
+  --text-decription: clamp(1.25rem, 1.0714rem + 0.8929vw, 1.875rem); /* 20px - 30px 320-1440*/
 }
 
 @layer base {
@@ -18,7 +25,4 @@
   ::file-selector-button {
     border-color: currentColor;
   }
-}
-
-@layer base {
 }
