@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="flex flex-col justify-between h-full gap-12">
+  <article class="flex flex-col justify-between h-full gap-12">
     <div class="flex sm:flex-row md:flex-col mb-auto gap-2">
       <h2 class="tracking-tighter text-wrap text-title">Frontend</h2>
       <h2 class="tracking-tighter text-wrap text-title">Engineer</h2>
@@ -10,5 +10,5 @@
       been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
       galley of type and scrambled it to make a type specimen book.
     </p>
-  </div>
+  </article>
 </template>

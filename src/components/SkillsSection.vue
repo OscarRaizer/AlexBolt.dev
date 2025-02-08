@@ -17,7 +17,7 @@ const skillStyles = computed(() => {
 </script>
 
 <template>
-  <div>
+  <article>
     <h2 class="tracking-tighter mb-10 text-skills">Skills</h2>
     <ul class="flex md:flex-col gap-2 font-medium text-2xl leading-none sm:flex-row flex-wrap">
       <li v-for="{ skill, color } in skillStyles" class="flex items-center" :key="skill">
@@ -26,5 +26,5 @@ const skillStyles = computed(() => {
         </span>
       </li>
     </ul>
-  </div>
+  </article>
 </template>

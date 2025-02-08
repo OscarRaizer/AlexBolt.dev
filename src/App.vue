@@ -10,17 +10,15 @@ import ContactsSection from '@/components/ContactsSection.vue'
   <div
     class="bg-[#d6d5dd] md:h-screen p-3 font-demibold leading-none text-[#060218] md:overflow-hidden"
   >
-    <div class="min-h-screen flex md:flex-col h-full gap-5 sm: flex-col-reverse">
-      <section class="grow h-full">
-        <div class="grid md:grid-cols-4 h-full gap-3 sm:grid-cols-1">
-          <TheDescription />
-          <SkillsSection />
-          <ProjectsSection />
-          <ContactsSection />
-        </div>
+    <section class="min-h-screen flex flex-col-reverse md:flex-col h-full gap-2 md:gap-5">
+      <section class="grow h-full grid md:grid-cols-4 gap-15 md:gap-3 sm:grid-cols-1">
+        <TheDescription />
+        <SkillsSection />
+        <ProjectsSection />
+        <ContactsSection />
       </section>
       <TheName />
-    </div>
+    </section>
   </div>
 </template>
 
