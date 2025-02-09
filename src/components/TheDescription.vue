@@ -2,8 +2,8 @@
 <template>
   <article class="flex flex-col justify-between h-full gap-12">
     <div class="flex sm:flex-row md:flex-col mb-auto gap-2">
-      <h2 class="tracking-tighter text-wrap text-title">Frontend</h2>
-      <h2 class="tracking-tighter text-wrap text-title">Engineer</h2>
+      <h2 class="tracking-tighter text-wrap text-title-title">Frontend</h2>
+      <h2 class="tracking-tighter text-wrap text-title-title">Engineer</h2>
     </div>
     <p class="font-medium text-2xl leading-none text-decription">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
