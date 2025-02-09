@@ -29,7 +29,11 @@
     0.9375rem + 3.125vw,
     3.75rem
   ); /* 25px - 60px  ||  320-1440 */
-  --text-decription: clamp(1.4375rem, 1.3125rem + 0.625vw, 1.875rem); /* 23px - 30px  || 320-1440 */
+  --text-decription: clamp(
+    1.4375rem,
+    1.4018rem + 0.1786vw,
+    1.5625rem
+  ); /* 23px - 25px  || 320-1440 */
 
   /* Content */
   --text-projects-name: clamp(
