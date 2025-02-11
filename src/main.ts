@@ -12,7 +12,7 @@ app.use(createPinia())
 app.use(router)
 app.use(
   createGtm({
-    id: 'G-0V4KY4EBL8',
+    id: 'GTM-M5P3NVSB',
     vueRouter: router,
     enabled: true,
     debug: false,
