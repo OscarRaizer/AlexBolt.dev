@@ -7,10 +7,9 @@
     </div>
     <div class="font-medium leading-7 text-decription">
       <p>Building web applications from sunny Bangkok.</p>
-      <p>
-        My journey started in IT support, evolving into creating fast, engaging, and thoughtfully
-        designed applications since 2022.
-      </p>
+      <p>Started in IT support and transitioned to frontend development in 2022.</p>
+      <p>I specialize in building efficient and user-friendly web applications.</p>
+      <br />
       <p>
         When I'm not coding, I’m cruising the city on a motorbike,
         <a
@@ -27,7 +26,6 @@
           music.
         </a>
       </p>
-      <p>It's all about finding beauty in both pixels and real life.</p>
     </div>
   </article>
 </template>
