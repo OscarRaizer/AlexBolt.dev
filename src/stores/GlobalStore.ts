@@ -9,6 +9,7 @@ export const useGlobalStore = defineStore('global', () => {
     'React',
     'Django',
     'Tailwind',
+    'PrimeVue',
     'HTML',
     'CSS',
     'Figma',
@@ -20,6 +21,24 @@ export const useGlobalStore = defineStore('global', () => {
   ]
 
   const projects = [
+    {
+      name: 'WMS',
+      link: 'https://wms24.ru',
+      role: 'Frontend Developer',
+      skills: [
+        'TypeScript',
+        'JavaScript',
+        'VUE',
+        'Tailwind',
+        'PrimeVue',
+        'HTML',
+        'CSS',
+        'Figma',
+        'Git',
+        'CI/CD',
+        'Linux',
+      ],
+    },
     {
       name: 'MPlays',
       link: 'https://mplays.ru',
